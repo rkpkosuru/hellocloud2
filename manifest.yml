@@ -6,6 +6,6 @@
 
 applications:
 - name:    Hello Cloud
-  host:    cf-node-hellocloud-dcn9
+  host:    cf-node-hellocloud-dcn167
   memory:  128M
   build: nodejs_buildpack-cached-v1.2.0.zip
