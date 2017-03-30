@@ -20,6 +20,6 @@ function onRequest(request, response) {
   response.writeHead(200, {"Content-Type": "text/html"})
 
   response.write("<html><body><h1>Hello Cloud App</h1>")
-  response.write("<h2>Instance ID: [" + instances + "]</h2></body></html>")
+  response.write("<h2>Hello Cloud-2 Instance ID: [" + instances + "]</h2></body></html>")
   response.end()
 }
